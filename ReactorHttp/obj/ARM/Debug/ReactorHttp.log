@@ -1,0 +1,264 @@
+﻿生成启动时间为 2023-08-07 14:50:22。
+日志记录详细程度设置为: Normal。     1>项目“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\ReactorHttp.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\obj\ARM\Debug\ReactorHttp.tlog\ReactorHttp.lastbuildstate”。
+       _RemoteClean:
+         正在清理远程项目目录
+       InitializeBuildStatus:
+         正在对“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\obj\ARM\Debug\ReactorHttp.tlog\unsuccessfulbuild”执行 Touch 任务。
+       _ValidateSources:
+         正在验证源
+       _CopySources:
+         正在将源远程复制到“192.168.204.140”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\Buffer.c”复制到“/home/jinku123/projects/ReactorHttp/Buffer.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\Channel.c”复制到“/home/jinku123/projects/ReactorHttp/Channel.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\ChannelMap.c”复制到“/home/jinku123/projects/ReactorHttp/ChannelMap.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\EpollDispatcher.c”复制到“/home/jinku123/projects/ReactorHttp/EpollDispatcher.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\EventLoop.c”复制到“/home/jinku123/projects/ReactorHttp/EventLoop.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\HttpRequest.c”复制到“/home/jinku123/projects/ReactorHttp/HttpRequest.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\Httpresponse.c”复制到“/home/jinku123/projects/ReactorHttp/Httpresponse.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\main.c”复制到“/home/jinku123/projects/ReactorHttp/main.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\PollDispatcher.c”复制到“/home/jinku123/projects/ReactorHttp/PollDispatcher.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\SelectDispatcher.c”复制到“/home/jinku123/projects/ReactorHttp/SelectDispatcher.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\TcpConnection.c”复制到“/home/jinku123/projects/ReactorHttp/TcpConnection.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\TcpServer.c”复制到“/home/jinku123/projects/ReactorHttp/TcpServer.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\ThreadPool.c”复制到“/home/jinku123/projects/ReactorHttp/ThreadPool.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\WorkerThread.c”复制到“/home/jinku123/projects/ReactorHttp/WorkerThread.c”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\Buffer.h”复制到“/home/jinku123/projects/ReactorHttp/Buffer.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\Channel.h”复制到“/home/jinku123/projects/ReactorHttp/Channel.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\ChannelMap.h”复制到“/home/jinku123/projects/ReactorHttp/ChannelMap.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\Dispatcher.h”复制到“/home/jinku123/projects/ReactorHttp/Dispatcher.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\EventLoop.h”复制到“/home/jinku123/projects/ReactorHttp/EventLoop.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\HttpRequest.h”复制到“/home/jinku123/projects/ReactorHttp/HttpRequest.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\HttpResponse.h”复制到“/home/jinku123/projects/ReactorHttp/HttpResponse.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\Log.h”复制到“/home/jinku123/projects/ReactorHttp/Log.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\TcpConnection.h”复制到“/home/jinku123/projects/ReactorHttp/TcpConnection.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\TcpServer.h”复制到“/home/jinku123/projects/ReactorHttp/TcpServer.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\ThreadPool.h”复制到“/home/jinku123/projects/ReactorHttp/ThreadPool.h”
+         正在将文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\WorkerThread.h”复制到“/home/jinku123/projects/ReactorHttp/WorkerThread.h”
+       _ValidateCompatibleRemoteArchitectures:
+         正在验证体系结构
+       _ValidateValidArchitecture:
+         正在验证体系结构
+     1>D:\Visual Studio\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(202,5): warning : 当前项目体系结构“ARM”不兼容远程系统体系结构“x64”(“x64”)。请在 Configuration Manager 中将项目体系结构切换为“x64”。如果正在交叉编译，可以忽略此警告。
+       ClCompile:
+         正在启动远程生成
+         正在编译源:
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/Buffer.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/Buffer.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         Buffer.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/Buffer.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/Channel.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/Channel.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         Channel.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/Channel.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/ChannelMap.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/ChannelMap.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         ChannelMap.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/ChannelMap.c”
+         正在调用“g++”
+         /home/jinku123/projects/ReactorHttp/Buffer.c: 在函数‘bufferInit’中:
+         /home/jinku123/projects/ReactorHttp/Buffer.c:16:9: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  buffer->data = (char*)malloc(size);
+                  ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c:19:9: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  memset(buffer->data, 0, size);
+                  ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c: 在函数‘bufferExtendRoom’中:
+         /home/jinku123/projects/ReactorHttp/Buffer.c:50:9: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  memcpy(buffer->data, buffer->data + buffer->readPos, readable);
+                  ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c:58:61: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  void* temp = realloc(buffer->data, buffer->capacity + size);
+                                                                      ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c:63:9: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  memset(temp + buffer->capacity, 0, size);
+                  ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c: 在函数‘bufferAppendData’中:
+         /home/jinku123/projects/ReactorHttp/Buffer.c:89:5: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              memcpy(buffer->data + buffer->writePos, data, size);
+              ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c: 在函数‘bufferAppendString’中:
+         /home/jinku123/projects/ReactorHttp/Buffer.c:96:22: 警告：‘int’转换自‘size_t’时可能改变值 [-Wconversion]
+              int size = strlen(data);
+                               ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c: 在函数‘bufferSocketRead’中:
+         /home/jinku123/projects/ReactorHttp/Buffer.c:108:5: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              vec[0].iov_len = writeable;
+              ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c:112:23: 警告：‘int’转换自‘ssize_t’时可能改变值 [-Wconversion]
+              int result = readv(fd, vec, 2);
+                                ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c: 在函数‘bufferFindCRLF’中:
+         /home/jinku123/projects/ReactorHttp/Buffer.c:136:74: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              char* ptr = memmem(buffer->data + buffer->readPos, bufferReadableSize(buffer), "\r\n", 2);
+                                                                                   ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c: 在函数‘bufferSendData’中:
+         /home/jinku123/projects/ReactorHttp/Buffer.c:146:9: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  int count = send(socket, buffer->data + buffer->readPos, readable, MSG_NOSIGNAL);
+                  ^
+         /home/jinku123/projects/ReactorHttp/Buffer.c:146:25: 警告：‘int’转换自‘ssize_t’时可能改变值 [-Wconversion]
+                  int count = send(socket, buffer->data + buffer->readPos, readable, MSG_NOSIGNAL);
+                                  ^
+         /home/jinku123/projects/ReactorHttp/ChannelMap.c: 在函数‘channelMapInit’中:
+         /home/jinku123/projects/ReactorHttp/ChannelMap.c:10:63: 警告：‘long unsigned int’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              map->list = (struct Channel**)malloc(size * sizeof(struct Channel*));
+                                                                        ^
+         /home/jinku123/projects/ReactorHttp/ChannelMap.c: 在函数‘makeMapRoom’中:
+         /home/jinku123/projects/ReactorHttp/ChannelMap.c:42:60: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  struct Channel** temp = realloc(map->list, curSize * unitSize);
+                                                                     ^
+         /home/jinku123/projects/ReactorHttp/ChannelMap.c:48:64: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  memset(&map->list[map->size], 0, (curSize - map->size) * unitSize);
+                                                                         ^
+         
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/EpollDispatcher.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/EpollDispatcher.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         EpollDispatcher.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/EpollDispatcher.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/EventLoop.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/EventLoop.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         EventLoop.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/EventLoop.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/HttpRequest.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/HttpRequest.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         HttpRequest.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/HttpRequest.c”
+         正在调用“g++”
+         /home/jinku123/projects/ReactorHttp/EpollDispatcher.c: 在函数‘epollCtl’中:
+         /home/jinku123/projects/ReactorHttp/EpollDispatcher.c:58:5: 警告：‘uint32_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              ev.events = events;
+              ^
+         /home/jinku123/projects/ReactorHttp/EpollDispatcher.c: 在函数‘epollDispatch’中:
+         /home/jinku123/projects/ReactorHttp/EpollDispatcher.c:105:37: 警告：‘int’转换自‘uint32_t’时可能会改变结果的符号 [-Wsign-conversion]
+                  int events = data->events[i].events;
+                                              ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c: 在函数‘splitRequestLine’中:
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:83:19: 警告：initialization discards ‘const’ qualifier from pointer target type [默认启用]
+              char* space = end;
+                            ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:86:35: 警告：‘size_t’转换自‘long int’时可能会改变结果的符号 [-Wsign-conversion]
+                  space = memmem(start, end - start, sub, strlen(sub));
+                                            ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:89:24: 警告：‘int’转换自‘long int’时可能改变值 [-Wconversion]
+              int length = space - start;
+                                 ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:90:38: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              char* tmp = (char*)malloc(length + 1);
+                                               ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:91:5: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              strncpy(tmp, start, length);
+              ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c: 在函数‘parseHttpRequestLine’中:
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:104:24: 警告：‘int’转换自‘long int’时可能改变值 [-Wconversion]
+              int lineSize = end - start;
+                                 ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c: 在函数‘parseHttpRequestHeader’中:
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:157:28: 警告：‘int’转换自‘long int’时可能改变值 [-Wconversion]
+                  int lineSize = end - start;
+                                     ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:159:9: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+                  char* middle = memmem(start, lineSize, ": ", 2);
+                  ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:162:47: 警告：‘size_t’转换自‘long int’时可能会改变结果的符号 [-Wsign-conversion]
+                      char* key = malloc(middle - start + 1);
+                                                        ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:163:40: 警告：‘size_t’转换自‘long int’时可能会改变结果的符号 [-Wsign-conversion]
+                      strncpy(key, start, middle - start);
+                                                 ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:166:51: 警告：‘size_t’转换自‘long int’时可能会改变结果的符号 [-Wsign-conversion]
+                      char* value = malloc(end - middle - 2 + 1);
+                                                            ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:167:53: 警告：‘size_t’转换自‘long int’时可能会改变结果的符号 [-Wsign-conversion]
+                      strncpy(value, middle + 2, end - middle - 2);
+                                                              ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c: 在函数‘decodeMsg’中:
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:319:42: 警告：‘char’转换自‘int’时可能改变值 [-Wconversion]
+                      *to = hexToDec(from[1]) * 16 + hexToDec(from[2]);
+                                                   ^
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c: 在函数‘sendFile’中:
+         /home/jinku123/projects/ReactorHttp/HttpRequest.c:429:23: 警告：‘int’转换自‘ssize_t’时可能改变值 [-Wconversion]
+                  int len = read(fd, buf, sizeof buf);
+                                ^
+         
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/Httpresponse.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/Httpresponse.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         Httpresponse.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/Httpresponse.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/main.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/main.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         main.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/main.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/PollDispatcher.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/PollDispatcher.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         PollDispatcher.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/PollDispatcher.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/SelectDispatcher.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/SelectDispatcher.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         SelectDispatcher.c
+         /home/jinku123/projects/ReactorHttp/Httpresponse.c: 在函数‘httpResponseInit’中:
+         /home/jinku123/projects/ReactorHttp/Httpresponse.c:13:33: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              response->headers = (struct ResponseHeader*)malloc(size);
+                                          ^
+         /home/jinku123/projects/ReactorHttp/Httpresponse.c:16:5: 警告：‘size_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              bzero(response->headers, size);
+              ^
+         /home/jinku123/projects/ReactorHttp/PollDispatcher.c: 在函数‘pollAdd’中:
+         /home/jinku123/projects/ReactorHttp/PollDispatcher.c:60:13: 警告：‘short int’转换自‘int’时可能改变值 [-Wconversion]
+                      data->fds[i].events = events;
+                      ^
+         /home/jinku123/projects/ReactorHttp/PollDispatcher.c: 在函数‘pollModify’中:
+         /home/jinku123/projects/ReactorHttp/PollDispatcher.c:113:13: 警告：‘short int’转换自‘int’时可能改变值 [-Wconversion]
+                      data->fds[i].events = events;
+                      ^
+         /home/jinku123/projects/ReactorHttp/PollDispatcher.c: 在函数‘pollDispatch’中:
+         /home/jinku123/projects/ReactorHttp/PollDispatcher.c:127:44: 警告：‘nfds_t’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              int count = poll(data->fds, data->maxfd+1, timeout * 1000);
+                                                     ^
+         
+         已完成编译“/home/jinku123/projects/ReactorHttp/SelectDispatcher.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/TcpConnection.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/TcpConnection.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         TcpConnection.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/TcpConnection.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/TcpServer.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/TcpServer.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         TcpServer.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/TcpServer.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/ThreadPool.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/ThreadPool.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         ThreadPool.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/ThreadPool.c”
+         正在调用“g++”
+         g++ -c -x c /home/jinku123/projects/ReactorHttp/WorkerThread.c -g2 -gdwarf-2 -o "/home/jinku123/projects/ReactorHttp/obj/ARM/Debug/WorkerThread.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -std=c11
+         WorkerThread.c
+         已完成编译“/home/jinku123/projects/ReactorHttp/WorkerThread.c”
+         /home/jinku123/projects/ReactorHttp/ThreadPool.c: 在函数‘threadPoolInit’中:
+         /home/jinku123/projects/ReactorHttp/ThreadPool.c:12:70: 警告：‘long unsigned int’转换自‘int’时可能会改变结果的符号 [-Wsign-conversion]
+              pool->workerThreads = (struct WorkerThread*)malloc(sizeof(struct WorkerThread) * count);
+                                                                               ^
+         /home/jinku123/projects/ReactorHttp/ThreadPool.c: 在函数‘takeWorkerEventLoop’中:
+         /home/jinku123/projects/ReactorHttp/ThreadPool.c:46:21: 警告：‘pool->index’上的运算结果可能是未定义的 [-Wsequence-point]
+                  pool->index = ++pool->index % pool->threadNum;
+                              ^
+         
+       Link:
+         正在链接对象
+         正在调用“ld”
+         g++ -o "/home/jinku123/projects/ReactorHttp/bin/ARM/Debug/ReactorHttp.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/Buffer.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/Channel.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/ChannelMap.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/EpollDispatcher.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/EventLoop.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/HttpRequest.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/Httpresponse.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/main.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/PollDispatcher.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/SelectDispatcher.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/TcpConnection.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/TcpServer.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/ThreadPool.o /home/jinku123/projects/ReactorHttp/obj/ARM/Debug/WorkerThread.o -lpthread
+         已完成链接，输出文件名:“/home/jinku123/projects/ReactorHttp/bin/ARM/Debug/ReactorHttp.out”
+         正在将文件“/home/jinku123/projects/ReactorHttp/bin/ARM/Debug/ReactorHttp.out”复制到“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\bin\ARM\Debug\ReactorHttp.out”
+         ReactorHttp.vcxproj -> C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\bin\ARM\Debug\ReactorHttp.out
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\obj\ARM\Debug\ReactorHttp.tlog\unsuccessfulbuild”。
+         正在对“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\obj\ARM\Debug\ReactorHttp.tlog\ReactorHttp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\ReactorHttp.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+       “C:\Users\98571\Desktop\fuwiqi\ReactorHttp1\ReactorHttp\ReactorHttp.vcxproj”(Rebuild 目标) (1) ->
+       (_ValidateValidArchitecture 目标) -> 
+         D:\Visual Studio\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(202,5): warning : 当前项目体系结构“ARM”不兼容远程系统体系结构“x64”(“x64”)。请在 Configuration Manager 中将项目体系结构切换为“x64”。如果正在交叉编译，可以忽略此警告。
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:09.00
